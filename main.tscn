@@ -53,3 +53,4 @@ viewport_size = Vector2(1400, 700)
 unshaded = true
 
 [node name="Background" parent="." instance=ExtResource("6_m0tdn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.205794, 0.101296, 0.020961)
