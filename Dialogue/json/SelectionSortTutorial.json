@@ -1,42 +1,70 @@
 [
   {
 	"title": "SelectionSort",
-	"text": "Imagine you have a messy pile of boxes with numbers on them, and your job is to line them up from the smallest number to the biggest number. We’re going to use Selection Sort to do that. It’s easy and fun! Ready?"
+	"text": "Imagine you have a messy pile of boxes with numbers on them, and your job is to line them up from the smallest number to the biggest number. We’re going to use Selection Sort to do that. It’s easy and fun! Ready?",
+	"interaction": false
   },
   {
 	"title": "SelectionSort",
-	"text": "Here’s the first step: Look at all the numbers in front of you. Your job is to find the smallest number in the list. When you find it, we’ll move it to the front of the line."
+	"text": "Here’s the first step: Look at all the numbers in front of you. Your job is to find the smallest number in the list. When you find it, we’ll move it to the front of the line.",
+	"interaction": false
   },
   {
 	"title": "SelectionSort",
-	"text": "Which number is the smallest?"
+	"text": "Which number is the smallest?",
+	"interaction": true,
+	"feedback_right": "Great job! 1 is the smallest number. Now let’s move it to the first position!",
+	"feedback_wrong": "Not quite! Please try again! Remember, we are trying to select the box that contains the smallest number"
   },
   {
 	"title": "SelectionSort",
-	"text": "Now that we’ve found the smallest number, let’s swap it with the number that’s currently in the first position."
+	"text": "Now that we’ve found the smallest number, let’s swap it with the number that’s currently in the first position.",
+	"interaction": false
   },
   {
 	"title": "SelectionSort",
-	"text": "Next, we ignore the first number because it’s already in its right spot. Now, look at the rest of the numbers: 3, 5, 8, 7. Can you find the smallest one?"
+	"text": "Look! Now 1 is in the first spot. This is the first step of Selection Sort!",
+	"interaction": false
   },
   {
 	"title": "SelectionSort",
-	"text": "Awesome! 3 is the smallest. Since it’s already in the right spot, we don’t need to swap. Let’s keep going!"
+	"text": "Next, we ignore the first number because it’s already in its right spot. Now, look at the rest of the numbers: 3, 5, 8, 7. Can you find the smallest one?",
+	"interaction": true,
+	"feedback_right": "Awesome! 3 is the smallest. Since it’s already in the right spot, we don’t need to swap. Let’s keep going!",
+	"feedback_wrong": "Not quite! Please try again! Remember, we're ignoring 1. What is the next smallest box?"
   },
   {
 	"title": "SelectionSort",
-	"text": "Let’s move on to the next group: 5, 8, 7. What’s the smallest number?"
+	"text": "Let’s move on to the next group: 5, 8, 7. What’s the smallest number?",
+	"interaction": true,
+	"feedback_right": "You got it! 5 is the smallest, and it’s in the right spot. Now, for the final two numbers: 8 and 7.",
+	"feedback_wrong": "Not quite! Please try again! Remember, we've already selected 1 and 3 so we can ignore those boxes. What is the next smallest box?"
   },
   {
 	"title": "SelectionSort",
-	"text": "Which one is smaller?"
+	"text": "Which one is smaller?",
+	"interaction": true,
+	"feedback_right": "Nice! Let’s swap 7 and 8.",
+	"feedback_wrong": "Not quite! Please try again!"
   },
   {
 	"title": "SelectionSort",
-	"text": "And there you have it! The list is now perfectly sorted: 1, 3, 5, 7, 8. You’ve just completed Selection Sort! All we did was keep finding the smallest number and placing it in the right spot."
+	"text": "And there you have it! The list is now perfectly sorted: 1, 3, 5, 7, 8. You’ve just completed Selection Sort! All we did was keep finding the smallest number and placing it in the right spot.",
+	"interaction": false
   },
   {
 	"title": "SelectionSort",
-	"text": "Want to practice? Try sorting this list by yourself using the same steps. Remember, keep finding the smallest number and move it to the right spot!"
+	"text": "Want to practice? Try sorting this list by yourself using the same steps. Remember, keep finding the smallest number and move it to the right spot!",
+	"interaction": false
+  },
+  {
+	"title": "SelectionSort",
+	"text": "Give it a try, and I’ll be here if you need help!",
+	"interaction": false
+  },
+  {
+	"title": "SelectionSort",
+	"text": "Great job learning Selection Sort! Now you know how to put numbers in order like a pro. Ready to move on to the next sorting trick?",
+	"interaction": false
   }
 ]
