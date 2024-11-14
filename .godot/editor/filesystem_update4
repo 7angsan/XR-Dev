@@ -1,9 +1,13 @@
-res://Dialogue/DialogueScenes/SelectionSortDialogue.tscn
+res://Menu/StartMenu.tscn
 res://openxr_action_map.tres
 res://addons/godot-xr-tools/hands/animations/left/hand_blend_tree.tres
 res://addons/godot-xr-tools/hands/animations/right/hand_blend_tree.tres
-res://Dialogue/DialogueScripts/selection_sort_dialogue.gd
 res://main.tscn
 res://game_ui.tscn
 res://xr_origin.tscn
-res://Dialogue/json/SelectionSortTutorial.json
+res://Dialogue/DialogueScenes/SelectionSortDialogue.tscn
+res://Scripts/startmenu.gd
+res://Menu/MainMenu.tscn
+res://Menu/CatalogMenu.tscn
+res://Scripts/mainmenu.gd
+res://Scripts/catalogmenu.gd
